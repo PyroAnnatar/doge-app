@@ -17,6 +17,9 @@ const imageBank = [
   "https://ae01.alicdn.com/kf/Sc2c4072b2db742e3be0400d00d9c9373h.jpg_640x640Q90.jpg_.webp",
   "https://c4.wallpaperflare.com/wallpaper/595/886/534/dog-doge-memes-microsoft-windows-wallpaper-thumb.jpg",
   "https://i.pinimg.com/564x/4b/74/cf/4b74cfb5f9ba362728b5ebfa6920b0f5.jpg",
+  "https://ih1.redbubble.net/image.2349956374.0508/fposter,small,wall_texture,square_product,600x600.u1.jpg",
+  "https://www.exodus.com/img/news/content/2022/11/60fbf14124a501bfda0c5.png",
+  "https://cdn.dimsumdaily.hk/wp-content/uploads/2023/08/20121454/64e169c1e4b072ff81e35795-1.jpg",
 ];
 
 const App = () => {
