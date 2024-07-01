@@ -20,6 +20,7 @@ const imageBank = [
   "https://ih1.redbubble.net/image.2349956374.0508/fposter,small,wall_texture,square_product,600x600.u1.jpg",
   "https://www.exodus.com/img/news/content/2022/11/60fbf14124a501bfda0c5.png",
   "https://cdn.dimsumdaily.hk/wp-content/uploads/2023/08/20121454/64e169c1e4b072ff81e35795-1.jpg",
+  "https://preview.redd.it/tb8qk497jo041.jpg?auto=webp&s=dd4b95aab22175360f49e8cf5fc2c4ec4ae9b478",
 ];
 
 const App = () => {
