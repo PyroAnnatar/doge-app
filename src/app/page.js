@@ -28,7 +28,7 @@ const App = () => {
   const [count, setCount] = useState(0);
 
   function handleClick() {
-    if (count === imageBank.length) return;
+    if (count >= imageBank.length) return;
     setImages((prev) => [
       ...prev,
       { src: imageBank[count], style: { fontSize: "16px" } },
@@ -53,7 +53,12 @@ const App = () => {
 
   return (
     <>
-      <button onClick={handleClick}>Get me a new image</button>
+      <button
+        onClick={handleClick}
+        disabled={count >= imageBank.length ? true : false}
+      >
+        Get me a new image
+      </button>
       <div>
         {images.map((image) => (
           <ImageShow
